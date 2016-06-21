@@ -1,0 +1,37 @@
+title: ostj
+# email: pmjones@gmail.com
+description: "all the data that's fit to linear regression"
+url: 'http://ostj.science'
+# twitter_username: ElectronJS
+# github_username: electron
+future: true
+excerpt_separator: '---'
+gems:
+    - jekyll-redirect-from
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-feed
+    - jemoji
+    - octopress
+github: [metadata]
+markdown: kramdown
+kramdown:
+        input: GFM
+        hard_wrap: false
+
+# Default extension for new posts and pages
+post_ext: markdown
+page_ext: html
+
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: false
+
+# Change default template file (in _templates/)
+post_template: post
+page_template: page
+draft_template: draft
